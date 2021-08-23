@@ -1,0 +1,62 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* global styling */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/* body styling, try and add the dark mode light mode feature */
+
+body{
+    background-color: #262626;
+}
+
+/* site name styling */
+
+.logo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FF7F11;
+    text-decoration: none;
+}
+
+/* navigation menu styling */
+
+.nav{
+    padding: 0 2rem;
+    height: 0;
+    min-height: 50vh;
+    overflow: hidden;
+}
+
+.nav .nav-items{
+    
+    display: flex;
+    margin: 0;
+    
+}
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem ;
+    font-size: 1.1rem;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+}
